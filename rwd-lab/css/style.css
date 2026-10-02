@@ -173,6 +173,7 @@ body {
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
+  min-width: 0;
   transition:
     transform var(--transition-default),
     box-shadow var(--transition-default);
@@ -218,6 +219,7 @@ terbawah */
   color: var(--clr-neutral-600);
   margin-bottom: var(--space-md);
   flex-grow: 1;
+  overflow-wrap: anywhere;
 }
 .product-card__footer {
   display: flex;
